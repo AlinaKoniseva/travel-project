@@ -34,6 +34,16 @@ body {
     margin: 30px 0;
 }
 
+.card-header.grid {
+    grid-gap: 0;
+}
+
+.embed {
+    width: 100%;
+    border: none;
+    aspect-ratio: 1 /  1;
+}
+
 .card-body {
     padding: 30px 0;
 }
@@ -44,9 +54,14 @@ body {
 }
 
 .img-responsive {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
+}
+
+.img-responsive-cafe-photos {
+    width: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 .text-center {
@@ -260,6 +275,14 @@ footer a {
 
     main p {
         font-size: 8px;
+    }
+
+    .card-header img {
+        display: none;
+    }
+
+    .embed {
+        aspect-ratio: 16 / 9;
     }
 
 }
